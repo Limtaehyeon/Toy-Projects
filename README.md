@@ -1,4 +1,4 @@
-# 🚀 Lim Tae Hyeon"s Toy-Projects Archive
+# 🚀 Lim Tae Hyeon's Toy-Projects Archive
 > **컴퓨터공학 전공 지식과 실전 기술을 익히기 위한 개인 프로젝트 저장소입니다.**
 
 이 저장소는 4학년 졸업을 앞두고 다양한 스택(React, Node.js, AI API, Mobile 등)을 직접 구현하며 학습한 결과물들을 기록합니다. 
