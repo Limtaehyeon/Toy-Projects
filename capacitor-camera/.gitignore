@@ -1,7 +1,5 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# [중요] 구글 클라우드 API 키 파일 (절대 업로드 방지)
-# 이 파일이 노출되면 결제 정보와 API 권한이 위험해집니다.
 **/google-key.json
 *.json.key
 secrets.json
