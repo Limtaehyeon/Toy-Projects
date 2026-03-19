@@ -18,7 +18,7 @@
 
 ---
 
-## 실행 화면 (Screenshots)
+## 실행 화면 
 | 1. 스캔 준비 | 2. 사진 촬영 완료 | 3. 글자 인식 결과 |
 | :---: | :---: | :---: |
 | <img src="https://github.com/user-attachments/assets/8872452a-1030-450e-9a85-1db34867a84d" width="250"/> | <img src="https://github.com/user-attachments/assets/a59f903a-c6a4-475e-b8e4-80aaae8ff7ea" width="250"/> | <img src="https://github.com/user-attachments/assets/d47a479a-9916-49fc-85d0-8cd56af6971a" width="250"/> |
