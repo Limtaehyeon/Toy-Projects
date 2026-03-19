@@ -34,3 +34,4 @@ capacitor-camera/
 ├── frontend/          # React 프론트엔드 코드
 ├── backend/           # Node.js 백엔드 (Google API 연동)
 └── .gitignore         # 보안 및 빌드 제외 설정 파일
+└── README.md
