@@ -19,9 +19,10 @@
 ---
 
 ## 📺 실행 화면 (Screenshots)
-<img width="590" height="1278" alt="KakaoTalk_Photo_2026-03-20-05-17-01 001" src="https://github.com/user-attachments/assets/d0ec4964-5bdd-433c-b570-467915141b8b" />
-![KakaoTalk_Photo_2026-03-20-05-17-01 002](https://github.com/user-attachments/assets/0a30a993-d712-48e4-a337-23796a14be5e)
-![KakaoTalk_Photo_2026-03-20-05-17-01 003](https://github.com/user-attachments/assets/3dcab0ab-0f62-472d-9950-f1e64d16a03a)
+| 1. 스캔 준비 | 2. 사진 촬영 완료 | 3. 글자 인식 결과 |
+| :---: | :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/8872452a-1030-450e-9a85-1db34867a84d" width="250"/> | <img src="https://github.com/user-attachments/assets/a59f903a-c6a4-475e-b8e4-80aaae8ff7ea" width="250"/> | <img src="https://github.com/user-attachments/assets/d47a479a-9916-49fc-85d0-8cd56af6971a" width="250"/> |
+
 
 
 
