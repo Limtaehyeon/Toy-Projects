@@ -21,6 +21,12 @@
 - **상태**: 개발 완료 및 보안 설정 완료
 - **바로가기**: [./capacitor-camera](./capacitor-camera)
 
+### 2. 알림 설정 (Capacitor Notification)
+- **설명**: 사용자 맞춤형 시간을 설정하여 모바일 푸시 알림을 제공하는 알림 설정 앱
+- **주요 기술**: `React`, `Capacitor`, `LocalNotifications`, `LocalStorage`
+- **상태**: 개발 완료 및 UI 최적화 완료
+- **바로가기**: [./capacitor-notification](./capacitor-notification)
+
 ---
 
 ## 보안 및 관리 원칙
