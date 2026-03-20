@@ -1,4 +1,4 @@
-# 루틴 알림 매니저 (Toy-Project)
+# 루틴 알림 서비스 (Toy-Project)
 
 > **Capacitor LocalNotifications를 활용한 개인화된 일과 알림 서비스**
 
