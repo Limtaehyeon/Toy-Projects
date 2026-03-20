@@ -15,14 +15,14 @@
 
 ## 프로젝트 목록 (Project List)
 
-### 1. 글자 인식 (Capacitor Camera)
+### 1. 글자 인식 서비스(Capacitor Camera)
 - **설명**: Google Vision API를 활용해 이미지 속 텍스트를 인식하는 하이브리드 앱
 - **주요 기술**: `React`, `Capacitor`, `Express`, `OCR API`
 - **상태**: 개발 완료 및 보안 설정 완료
 - **바로가기**: [./capacitor-camera](./capacitor-camera)
 
-### 2. 알림 설정 (Capacitor Notification)
-- **설명**: 사용자 맞춤형 시간을 설정하여 모바일 푸시 알림을 제공하는 알림 설정 앱
+### 2. 루틴 알림 서비스 (Capacitor Notification)
+- **설명**: 사용자 맞춤형 시간을 설정하여 모바일 푸시 알림을 제공하는 루틴 관리 앱
 - **주요 기술**: `React`, `Capacitor`, `LocalNotifications`, `LocalStorage`
 - **상태**: 개발 완료 및 UI 최적화 완료
 - **바로가기**: [./capacitor-notification](./capacitor-notification)
