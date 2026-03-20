@@ -1,73 +1,46 @@
-# React + TypeScript + Vite
+# 루틴 알림 매니저 (Toy-Project)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> **Capacitor LocalNotifications를 활용한 개인화된 일과 알림 서비스**
 
-Currently, two official plugins are available:
+사용자가 본인의 일과에 맞춰 아침, 점심, 저녁 알림 시간을 자유롭게 설정하고, 정해진 시간에 모바일 시스템 알림을 받을 수 있도록 돕는 루틴 관리 도구입니다.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 핵심 기능
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **커스텀 루틴 설정**: 사용자가 직접 원하는 시간을 입력하여 아침/점심/저녁 알림 예약
+- **스마트 토글 제어**: 메인 스위치를 통해 전체 알림 활성화/비활성화를 실시간으로 제어
+- **데이터 영속성 유지**: `localStorage`를 활용하여 앱 종료 후 재실행 시에도 설정값 자동 복원
+- **네이티브 알림 연동**: Capacitor SDK를 사용하여 OS 레벨의 로컬 알림 시스템 스케줄링 구현
 
-## Expanding the ESLint configuration
+## 사용 기술
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Frontend**: React.js (Hooks, Functional Components)
+- **Native Bridge**: Capacitor (LocalNotifications, Core)
+- **Styling**: Inline CSS (Glassmorphism & Dark Mode UI)
+- **Storage**: Web Storage API (localStorage)
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 실행 화면
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+|   1. 초기 화면    |                 2. 알림 비활성 (OFF)                 |                   3. 알림 활성 (ON)                   |           4. 알림 모달                  |
+| :-----------------------: | :----------------------------------------------------: | :------------------------------------------------------: |  :----------------------------------------------------: |
+| <img src="https://github.com/user-attachments/assets/5b311c6e-87d6-4513-a0f2-8e68419ea7fe" width="250"/> | <img src="https://github.com/user-attachments/assets/460cc317-ec9a-4c74-b8d5-f23f6293e44d" width="250"/> | <img src="https://github.com/user-attachments/assets/8d6ff2c2-5a2f-43e4-981c-3bb72fc57398" width="250"/> | <img src="https://github.com/user-attachments/assets/95a22215-6e95-4e5d-9041-0908f4f25d11" width="250"/> |
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+
+
+
+## 프로젝트 구조 (Project Structure)
+
+```text
+capacitor-notification/
+├── src/
+│   ├── App.js         # 알림 설정 메인 로직 및 UI 디자인
+│   └── index.js       # 엔트리 포인트
+├── public/            # 정적 리소스 파일
+└── .gitignore         # 보안 및 빌드 제외 설정 파일
+└── README.md
 ```
