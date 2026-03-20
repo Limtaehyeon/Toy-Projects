@@ -1,4 +1,4 @@
-# 글자 인식 (Toy-Project)
+# 글자 인식 서비스(Toy-Project)
 
 > **Google Vision API를 활용한 이미지 텍스트 추출 및 관리 서비스**
 
