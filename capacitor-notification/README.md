@@ -13,27 +13,13 @@
 - **데이터 영속성 유지**: `localStorage`를 활용하여 앱 종료 후 재실행 시에도 설정값 자동 복원
 - **네이티브 알림 연동**: Capacitor SDK를 사용하여 OS 레벨의 로컬 알림 시스템 스케줄링 구현
 
-## 사용 기술
-
-- **Frontend**: React.js (Hooks, Functional Components)
-- **Native Bridge**: Capacitor (LocalNotifications, Core)
-- **Styling**: Inline CSS (Glassmorphism & Dark Mode UI)
-- **Storage**: Web Storage API (localStorage)
-
----
-
 ## 실행 화면
 
-|   1. 초기 화면    |                 2. 알림 비활성 (OFF)                 |                   3. 알림 활성 (ON)                   |           4. 알림 모달                  |
-| :-----------------------: | :----------------------------------------------------: | :------------------------------------------------------: |  :----------------------------------------------------: |
-| <img src="https://github.com/user-attachments/assets/5b311c6e-87d6-4513-a0f2-8e68419ea7fe" width="250"/> | <img src="https://github.com/user-attachments/assets/460cc317-ec9a-4c74-b8d5-f23f6293e44d" width="250"/> | <img src="https://github.com/user-attachments/assets/8d6ff2c2-5a2f-43e4-981c-3bb72fc57398" width="250"/> | <img src="https://github.com/user-attachments/assets/95a22215-6e95-4e5d-9041-0908f4f25d11" width="250"/> |
+|                                               1. 초기 화면                                               |                                           2. 알림 비활성 (OFF)                                           |                                            3. 알림 활성 (ON)                                             |                                               4. 알림 모달                                               |
+| :------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------: |
+| <img src="https://github.com/user-attachments/assets/5b311c6e-87d6-4513-a0f2-8e68419ea7fe" width="180"/> | <img src="https://github.com/user-attachments/assets/460cc317-ec9a-4c74-b8d5-f23f6293e44d" width="180"/> | <img src="https://github.com/user-attachments/assets/8d6ff2c2-5a2f-43e4-981c-3bb72fc57398" width="180"/> | <img src="https://github.com/user-attachments/assets/95a22215-6e95-4e5d-9041-0908f4f25d11" width="180"/> |
 
-
-
-
-
-
-## 프로젝트 구조 (Project Structure)
+## 프로젝트 구조
 
 ```text
 capacitor-notification/
@@ -42,5 +28,4 @@ capacitor-notification/
 │   └── index.js       # 엔트리 포인트
 ├── public/            # 정적 리소스 파일
 └── .gitignore         # 보안 및 빌드 제외 설정 파일
-└── README.md
 ```
