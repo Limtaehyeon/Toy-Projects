@@ -1,11 +1,11 @@
-# 🚀 Lim Tae Hyeon's Toy-Projects Archive
+# 🚀 Lim Tae Hyeon's Toy-Projects 
 > **컴퓨터공학 전공 지식과 실전 기술을 익히기 위한 개인 프로젝트 저장소입니다.**
 
 이 저장소는 4학년 졸업을 앞두고 다양한 스택(React, Node.js, AI API, Mobile 등)을 직접 구현하며 학습한 결과물들을 기록합니다. 
 
 ---
 
-## 주요 학습 기술 (Core Skills)
+## 주요 학습 기술
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
@@ -13,7 +13,7 @@
 
 ---
 
-## 프로젝트 목록 (Project List)
+## 프로젝트 목록
 
 ### 1. 글자 인식 서비스(Capacitor Camera)
 - **설명**: Google Vision API를 활용해 이미지 속 텍스트를 인식하는 하이브리드 앱
