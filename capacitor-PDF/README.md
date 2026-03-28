@@ -16,12 +16,9 @@
 
 ## 실행 화면
 
-|                             1. 메인 작성 화면                             |                         2. 글 입력                        |                           3. PDF 미리보기                            |                          4. 저장 완료                          |
-| :-----------------------------------------------------------------------: | :-----------------------------------------------------------------------: | :---------------------------------------------------------------------------: | :------
------------------------------------------------------------------: |
-| <img src="https://github.com/user-attachments/assets/20ccee20-70d9-4184-8386-2abc1e31e821" width="180"/> | <img src="https://github.com/user-attachments/assets/ca66c8e4-2656-44f0-836b-fb78622dce7e" width="180"/> | <img src=
-"https://github.com/user-attachments/assets/5a1214e2-b9c6-4b09-a43d-0005bdfe4869" width="180"/> | <img src= "https://github.com/user-attachments/assets/83408097-6994-4020-ba02-3eb906322a8e" width="180"/> |
-
+| 1. 메인 작성 화면 | 2. 글 입력 | 3. PDF 미리보기 | 4. 저장 완료 |
+| :---: | :---: | :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/20ccee20-70d9-4184-8386-2abc1e31e821" width="180"/> | <img src="https://github.com/user-attachments/assets/ca66c8e4-2656-44f0-836b-fb78622dce7e" width="180"/> | <img src="https://github.com/user-attachments/assets/5a1214e2-b9c6-4b09-a43d-0005bdfe4869" width="180"/> | <img src="https://github.com/user-attachments/assets/83408097-6994-4020-ba02-3eb906322a8e" width="180"/> |
 
 ## 프로젝트 구조
 
