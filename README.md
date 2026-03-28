@@ -27,6 +27,15 @@
 - **상태**: 개발 완료 및 UI 최적화 완료
 - **바로가기**: [./capacitor-notification](./capacitor-notification)
 
+### 3. PDF 요약 리포트 서비스 (Capacitor PDF)
+- **설명**: 입력한 텍스트를 분석하여 카드 형태의 PDF 리포트로 변환하고 모바일 기기에 저장하는 유틸리티 앱
+
+- **주요 기술**: `React`, `Capacitor`, `jsPDF`, `html2canvas`, `Swiper.js`
+
+- **상태**: 개발 완료 및 파일 저장/초기화 로직 구현 완료
+
+- **바로가기**: [./capacitor-PDF](./capacitor-PDF)
+
 ---
 
 ## 보안 및 관리 원칙
